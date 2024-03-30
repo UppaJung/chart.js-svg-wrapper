@@ -1,0 +1,45 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:@types/node": "npm:@types/node@18.16.19",
+      "npm:chart.js@4.4.2": "npm:chart.js@4.4.2",
+      "npm:chartjs-plugin-annotation@3.0.1": "npm:chartjs-plugin-annotation@3.0.1_chart.js@4.4.2"
+    },
+    "npm": {
+      "@kurkle/color@0.3.2": {
+        "integrity": "sha512-fuscdXJ9G1qb7W8VdHi+IwRqij3lBkosAm4ydQtEmbY58OzHXqQhvlxqEkoz0yssNVn38bcpRWgA9PP+OGoisw==",
+        "dependencies": {}
+      },
+      "@types/node@18.16.19": {
+        "integrity": "sha512-IXl7o+R9iti9eBW4Wg2hx1xQDig183jj7YLn8F7udNceyfkbn1ZxmzZXuak20gR40D7pIkIY1kYGx5VIGbaHKA==",
+        "dependencies": {}
+      },
+      "chart.js@4.4.2": {
+        "integrity": "sha512-6GD7iKwFpP5kbSD4MeRRRlTnQvxfQREy36uEtm1hzHzcOqwWx0YEHuspuoNlslu+nciLIB7fjjsHkUv/FzFcOg==",
+        "dependencies": {
+          "@kurkle/color": "@kurkle/color@0.3.2"
+        }
+      },
+      "chartjs-plugin-annotation@3.0.1_chart.js@4.4.2": {
+        "integrity": "sha512-hlIrXXKqSDgb+ZjVYHefmlZUXK8KbkCPiynSVrTb/HjTMkT62cOInaT1NTQCKtxKKOm9oHp958DY3RTAFKtkHg==",
+        "dependencies": {
+          "chart.js": "chart.js@4.4.2"
+        }
+      }
+    }
+  },
+  "remote": {
+    "https://deno.land/std@0.192.0/fmt/colors.ts": "d67e3cd9f472535241a8e410d33423980bec45047e343577554d3356e1f0ef4e",
+    "https://deno.land/std@0.192.0/testing/_diff.ts": "1a3c044aedf77647d6cac86b798c6417603361b66b54c53331b312caeb447aea",
+    "https://deno.land/std@0.192.0/testing/_format.ts": "a69126e8a469009adf4cf2a50af889aca364c349797e63174884a52ff75cf4c7",
+    "https://deno.land/std@0.192.0/testing/asserts.ts": "e16d98b4d73ffc4ed498d717307a12500ae4f2cbe668f1a215632d19fcffc22f",
+    "https://esm.sh/stable/red-agate-svg-canvas@0.5.0": "0fc62af1aa96a6cbd2e36527728ca9a32ab10ab68dbdbd4409b60523612804b4",
+    "https://esm.sh/v128/red-agate-svg-canvas@0.5.0/denonext/red-agate-svg-canvas.mjs": "2ef173c836debd43c5b3b2defc59caa9eafe065dc262407c402ecbcdcd47d1a3",
+    "https://esm.sh/v128/red-agate-util@0.5.0/denonext/modules/convert/Base64.js": "ae35090536776a59cc5c1bb235990ff45d220bdbcae31db3b8d27fddcff4b666",
+    "https://esm.sh/v128/red-agate-util@0.5.0/denonext/modules/convert/Escape.js": "32047eef1cbdb443e13b2f58b61267e22c47cadf59427f8278c8c040342074a6",
+    "https://esm.sh/v128/red-agate-util@0.5.0/denonext/modules/convert/NumberPrecision.js": "ac3cf952b4ac33688223f96567fea8dca53f257cde247da7a464a19b8cf34f76",
+    "https://esm.sh/v128/red-agate-util@0.5.0/denonext/modules/convert/TextEncoding.js": "9e88e2da12251eeb2515ef7b378bfab08759164f44d9948dbecd563a7a618f50",
+    "https://esm.sh/v128/red-agate-util@0.5.0/denonext/modules/convert/WordWrap.js": "41050522a3f108b09d7304ae90200f42f62f190051b8c807501385f0733495cc"
+  }
+}
